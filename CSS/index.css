@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap');
+
 body{
     background-color: white;
     font-family: 'Kelly Slab', cursive;
@@ -19,6 +21,7 @@ header{
 img{
   display: block;
   margin: auto;
+  width: 100%;
 }
 main{
   background-color: #D27225;
