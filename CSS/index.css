@@ -41,6 +41,26 @@ h4{
 .h4{
   font-size: 26px;
 }
+img.ornament {
+  max-height: 30px; /* або будь-яке інше значення, яке тобі підходить */
+  height: auto;
+  width: auto;
+  display: block;
+  margin: 2rem auto;
+}
+.ornament-line {
+  height: 35px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  background-image: url("../img/ornament.png");
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  margin: 0;
+  overflow: hidden;
+  opacity: 0.7; /* прозорість */
+}
 .circle {
   display: inline-block;
   width: 8px;
